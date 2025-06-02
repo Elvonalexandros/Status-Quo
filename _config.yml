@@ -32,6 +32,17 @@ theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
+minimal_mistakes_skin: "default" # o el que estés usando
+plugins:
+  - jekyll-include-cache
+include: ["_pages"]
+sass:
+  style: compressed
+assets:
+  css:
+    - /assets/css/custom.css
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
