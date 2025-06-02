@@ -1,0 +1,74 @@
+/* paleta https://colorhunt.co/palette/9a3b3bc08261e2c799f2ecbe */
+:root {
+  --color-primario: #9A3B3B;
+  --color-secundario: #C08261;
+  --color-terciario: #E2C799;
+  --color-cuaternario: #F2ECBE;
+}
+
+.rojo-Roma{
+    background-color: var(--color-primario);
+}
+
+.boton-secundario {
+  background-color: var(--color-secundario);
+  color: var(--color-primario); /* Texto oscuro sobre fondo más claro */
+  padding: 10px 20px;
+  border: 2px solid var(--color-primario);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.boton-secundario:hover {
+  background-color: var(--color-terciario);
+  color: var(--color-cuaternario); /* Invertir colores al pasar el ratón */
+}
+/*TEXTO PRIMERA PAGINA*/
+.lista-recuperemos {
+  display: block !important; /* Forzar que se muestre */
+  list-style: none; /* Elimina los puntos de la lista */
+  padding: 0;
+  margin: 1em 0; /* Añade un poco de margen arriba y abajo */
+}
+
+.lista-recuperemos li {
+    display: list-item !important; /* Forzar que sea un elemento de lista */
+    margin-bottom: 0.5em; /* Espacio entre los elementos de la lista */
+}
+
+.lista-recuperemos a {
+  color: var(--color-secundario); /* Enlace con el color secundario */
+  text-decoration: none; /* Sin subrayado por defecto */
+  font-weight: bold; /* Texto en negrita */
+  transition: color 0.3s ease; /* Transición suave de color */
+}
+
+.lista-recuperemos a:hover {
+  color: var(--color-terciario);
+  box-shadow: 1px rgba(0, 0, 3, 0.7); /* Añadimos un pequeño sombreado */
+}
+
+/*FOOTER*/
+.custom-footer footer {
+  background-color: var(--color-primario); /* Fondo con el color primario */
+  color: var(--color-cuaternario); /* Texto claro para contraste */
+  padding: 20px;
+  text-align: center;
+  font-size: 0.8em;
+}
+.custom-footer footer a.footer-link {
+  color: var(--color-terciario); /* Enlaces con el color terciario */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.custom-footer footer a.footer-link:hover {
+  text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+.custom-footer .footer-copyright {
+  margin-top: 10px;
+  color: var(--color-secundario); /* Copyright con un color secundario */
+}
