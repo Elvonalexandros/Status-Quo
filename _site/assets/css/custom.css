@@ -6,12 +6,11 @@
   --color-cuaternario: #F2ECBE;
 }
 
-.logo {
-  font-family: 'Playfair Display', serif; /* Una tipografía serif elegante */
-  font-size: 1.8em;
-  color: var(--color-primario) !important;
-  text-decoration: none;
-  letter-spacing: 0.05em;
+.logo-wolf {
+  width: 100px; /* Ajusta el tamaño según necesites */
+  height: auto;
+  display: block; /* Para que se comporte como un bloque */
+  margin: 0 auto; /* Para centrarlo horizontalmente si quieres */
 }
 
 .logo span {
@@ -63,15 +62,18 @@
 }
 
 /*FOOTER*/
+footer{
+    background-color: rgb(244, 237, 225);
+}
 .custom-footer footer {
   background-color: var(--color-primario); /* Fondo con el color primario */
-  color: var(--color-cuaternario); /* Texto claro para contraste */
+  color: var(--color-cuaternario ); /* Texto claro para contraste */
   padding: 20px;
   text-align: center;
   font-size: 0.8em;
 }
 .custom-footer footer a.footer-link {
-  color: var(--color-terciario); /* Enlaces con el color terciario */
+  color: var(--color-terciario ); /* Enlaces con el color terciario */
   text-decoration: none;
   margin: 0 10px;
 }

@@ -2555,12 +2555,12 @@ blockquote.notice--danger {
     margin-inline: 0;
     width: 100%;
     margin-top: 3em;
-    color: rgb(99.8, 103, 105.4);
+    color: rgb(244, 237, 225);
     -webkit-animation: intro .3s both;
     animation: intro .3s both;
     -webkit-animation-delay: .45s;
     animation-delay: .45s;
-    background-color: rgb(241.7, 242.5, 243.1)
+    background-color: rgb(244, 237, 225);
 }
 
 .page__footer::after {
