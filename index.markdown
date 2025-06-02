@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Movimiento Status Quo"
+title: "Movimiento Statu - Quo ?"
 subtitle: "Una nueva plataforma política desde abajo"
 header:
   overlay_color: "#000"

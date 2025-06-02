@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Status-Quo
-email: Statys-Quo?@example.com
+title: Statu - Quo ?
+email: Statu-Quo?@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   esta es la descripciondel sitop
 baseurl: "" # the subpath of your site, e.g. /blog
