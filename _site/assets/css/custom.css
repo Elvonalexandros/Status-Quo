@@ -6,6 +6,18 @@
   --color-cuaternario: #F2ECBE;
 }
 
+.logo {
+  font-family: 'Playfair Display', serif; /* Una tipografía serif elegante */
+  font-size: 1.8em;
+  color: var(--color-primario) !important;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+
+.logo span {
+  font-weight: bold; /* Resaltar las iniciales */
+}
+
 .rojo-Roma{
     background-color: var(--color-primario);
 }
